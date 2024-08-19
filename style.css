@@ -1,0 +1,84 @@
+/* global styles start  */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 100px;
+}
+
+/* global styles finish  */
+
+.wrapper {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.wrapperh3in {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.card {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(183, 171, 171);
+  padding: 20px 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+h3 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+input {
+  padding: 15px 100px;
+  border: black solid 2px;
+  border-radius: 20px 0px 0px 20px;
+  box-shadow: 2px 5px 20px black;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.img1 {
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.h1 {
+  color: white;
+  font-size: 30px;
+  text-shadow: 2px 2px 20px black;
+}
+
+.h2 {
+  color: white;
+  text-shadow: 2px 2px 20px black;
+}
+
+button {
+  padding: 15px;
+  border-radius: 0px 20px 20px 0px;
+  box-shadow: 2px 5px 20px black;
+}
+
+button:active {
+  scale: 0.9;
+}
